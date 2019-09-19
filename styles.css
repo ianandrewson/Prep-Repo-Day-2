@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.news {
+    font-style: oblique
+}
+.featureList {
+    color: red;
+    border: solid 2px black;
+}
+
+.gossip {
+    color: blue;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    color: black;
+    font-size: 8px;
+}

@@ -5,42 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Muzac</title>
-    <style>
-            body {
-                display: flex;
-                justify-content: center;
-            }
-            .news {
-                font-style: oblique
-            }
-            .featureList {
-                color: red;
-                border: solid 2px black;
-            }
-
-            .gossip {
-                color: blue;
-                font-size: 14px;
-            }
-
-            h1 {
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            }
-
-            footer {
-                color: black;
-                font-size: 8px;
-            }
-        </style>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="app.js"></script>
 </head>
 <body>
-    
     <header>
         <h1>Super Rad Music Blog</h1>
         <img class="logo" src="https://images-na.ssl-images-amazon.com/images/I/61wcEoXVcuL._SX466_.jpg" alt="" height=200 width=200>
     </header>
     <main>
         <article>
+                <button onclick="showAlert()">Click Me!</button>
+                <label>
+                    Search: <input oninput="logHello()"
+                </label>
             <h2>Dave Smith Instruments Leaks Plans For Prophet Rev3</h2>
                 <img src="" alt="">
                 <h3>Internet in uproar over design choices</h3>
